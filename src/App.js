@@ -12,7 +12,7 @@ function App() {
     <Navbar />
       <div className="max-w-screen-md mx-auto pt-20">
         <Route exact path="/" component={Home} />
-        <Route exact path="/article" component={Article} />
+        <Route exact path="/article/:name" component={Article} />
         <Route exact path="/articles-list" component={ArticlesList} />
         <Route exact path="/about" component={About} />
       </div>
